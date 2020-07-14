@@ -6,7 +6,6 @@
   background-color: #FFB6C1;
 }
 
-
 ::-webkit-scrollbar {
 width: 10px;
 }
@@ -31,6 +30,16 @@ border-radius: 6px;
   border-color: #000;
   border-left-width: 0px;
   border-right-width: 0px;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
 }
 
 .navbar-brand {
@@ -117,8 +126,6 @@ section{
       background-color: #000;
       color:#e2e2e2;
        }
- 
-
 #nav-list {
   margin-top: 10px;
 }
@@ -127,8 +134,7 @@ section{
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
-}
+  background: #E7E7E7; 
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
