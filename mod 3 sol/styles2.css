@@ -97,6 +97,7 @@ section{
          height: 100%;
          overflow: scroll;
          color:#000;
+         margin-bottom: 20px;
 
   }
 
@@ -109,25 +110,31 @@ section{
     padding-top: 10px;
     color: #000;
     }
+
+
+     section>h3{
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
+    color: #000;
+    }
   section p{
     color: #000;
   }
-
- section.india>h2{
-      background-color: #000;
-      color:#e2e2e2;
-       }
  
 
-#nav-list {
+#nav-list{
   margin-top: 10px;
 }
-#nav-list a {
-  color: #951C49;
+#nav-list a{
+  color: #000;
   text-align: center;
 }
-#nav-list a:hover {
-  background: #E7E7E7;
+#nav-list a:hover{
+  background:#E7E7E7;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -136,4 +143,5 @@ section{
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+  color: #fff;
 }
